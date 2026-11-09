@@ -18,6 +18,7 @@ public class P15_Emus_y_Fechas {
     static Scanner keyboard = new Scanner(System.in);
     public static void main(String[] args) {
         DiasSemana dia = pideDia();
+        if (dia != null){
         switch (dia){
             case LUNES: System.out.println("Hoy es Lunes");
                         break;
@@ -33,6 +34,7 @@ public class P15_Emus_y_Fechas {
                         break;
             case DOMINGO: System.out.println("Hoy es Domingo");
                         break;
+        }
         }
         //Esto no va a funcionar
 //        dia = "LUNES";
