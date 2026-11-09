@@ -55,4 +55,9 @@ public class P15_Emus_y_Fechas {
         }
        return dia;
     }
+    public static void muestraDiasSemanas(){
+        for (DiasSemana valor : DiasSemana.values()){
+            System.out.println(valor);
+        }
+    }
 }
